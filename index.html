@@ -29,10 +29,11 @@ background:#060818;
 color:white;
 overflow-x:hidden;
 line-height:1.6;
+position:relative;
 }
 
 
-/* background glows */
+/* glow effects */
 
 body:before{
 
@@ -270,7 +271,6 @@ border-radius:30px;
 transition:.35s;
 }
 
-
 .card:hover{
 
 transform:
@@ -349,13 +349,104 @@ transparent
 }
 
 
-footer{
 
-padding:50px;
+/* footer */
+
+.siteFooter{
+
+margin-top:60px;
+
+padding:45px 20px;
 
 text-align:center;
 
-opacity:.7;
+background:
+
+rgba(
+255,
+255,
+255,
+.04
+);
+
+backdrop-filter:
+blur(20px);
+
+border-top:
+1px solid
+rgba(
+255,
+255,
+255,
+.08
+);
+
+}
+
+.footerInner{
+
+max-width:900px;
+
+margin:auto;
+}
+
+.footerBrand{
+
+font-size:1.4rem;
+
+font-weight:bold;
+
+margin-bottom:12px;
+}
+
+.footerText{
+
+opacity:.75;
+
+line-height:1.7;
+
+max-width:650px;
+
+margin:
+auto
+auto
+25px;
+}
+
+.footerLinks{
+
+display:flex;
+
+justify-content:center;
+
+gap:20px;
+
+flex-wrap:wrap;
+
+margin-bottom:25px;
+}
+
+.footerLinks a{
+
+text-decoration:none;
+
+color:white;
+
+opacity:.8;
+
+transition:.3s;
+}
+
+.footerLinks a:hover{
+
+opacity:1;
+}
+
+.copyright{
+
+opacity:.65;
+
+font-size:.9rem;
 }
 
 </style>
@@ -401,25 +492,18 @@ Behind The Screen
 <section id="conference">
 
 <h2 class="categoryTitle">
-
 🎤 Conferences
-
 </h2>
 
 <p class="categoryText">
-
 Experiences designed for memorable events.
-
 </p>
-
 
 <div class="grid">
 
 <div class="card">
 
-<div class="icon">
-💜
-</div>
+<div class="icon">💜</div>
 
 <h3>
 Beautifully Broken Conference
@@ -451,15 +535,11 @@ Visit
 <section>
 
 <h2 class="categoryTitle">
-
 🏛 Ministry & Media
-
 </h2>
 
 <p class="categoryText">
-
 Podcasts, music, and devotional experiences.
-
 </p>
 
 
@@ -467,9 +547,7 @@ Podcasts, music, and devotional experiences.
 
 <div class="card">
 
-<div class="icon">
-📖
-</div>
+<div class="icon">📖</div>
 
 <h3>
 Anthony Blog Devotion
@@ -489,11 +567,11 @@ Visit
 
 </div>
 
+
+
 <div class="card">
 
-<div class="icon">
-📚
-</div>
+<div class="icon">📚</div>
 
 <h3>
 Bethesda Apostolic Pentecostal Bible Institute
@@ -514,11 +592,10 @@ Visit
 </div>
 
 
+
 <div class="card">
 
-<div class="icon">
-🎙
-</div>
+<div class="icon">🎙</div>
 
 <h3>
 One God Podcast
@@ -542,9 +619,7 @@ Visit
 
 <div class="card">
 
-<div class="icon">
-🎵
-</div>
+<div class="icon">🎵</div>
 
 <h3>
 SGH Music Group
@@ -576,25 +651,18 @@ Visit
 <section>
 
 <h2 class="categoryTitle">
-
 💼 Business & Client Projects
-
 </h2>
 
 <p class="categoryText">
-
 Creative websites and business experiences.
-
 </p>
-
 
 <div class="grid">
 
 <div class="card">
 
-<div class="icon">
-🔧
-</div>
+<div class="icon">🔧</div>
 
 <h3>
 Broughtons Glass Service
@@ -618,9 +686,7 @@ Visit
 
 <div class="card">
 
-<div class="icon">
-🥒
-</div>
+<div class="icon">🥒</div>
 
 <h3>
 GG's Pickles
@@ -644,9 +710,7 @@ Visit
 
 <div class="card">
 
-<div class="icon">
-📷
-</div>
+<div class="icon">📷</div>
 
 <h3>
 Growing Love Photography
@@ -671,31 +735,47 @@ Visit
 </section>
 
 
-<div class="divider"></div>
 
+<footer class="siteFooter">
 
-<section id="story">
+<div class="footerInner">
 
-<h2 class="categoryTitle">
+<div class="footerBrand">
 
-✨ Behind The Screen
+Brad Hobbs Web Design
 
-</h2>
+</div>
 
-<p class="categoryText">
+<p class="footerText">
 
-Every website begins with a vision and grows into an experience filled with creativity, care, and purpose.
+Creative websites built with heart and imagination.
 
 </p>
 
-</section>
+<div class="footerLinks">
 
+<a href="https://brad-hobbswd.github.io/clients/">
+Home
+</a>
 
+<a href="https://brad-hobbswd.github.io/brad-hobbswd/privacy.html">
+Privacy
+</a>
 
-<footer>
+<a href="https://brad-hobbswd.github.io/brad-hobbswd/terms.html">
+Terms
+</a>
+
+</div>
+
+<p class="copyright">
 
 © <span id="year"></span>
 Brad Hobbs Web Design
+
+</p>
+
+</div>
 
 </footer>
 
@@ -706,15 +786,11 @@ document
 .getElementById(
 "year"
 )
-
 .textContent=
-
 new Date()
-
 .getFullYear();
 
 </script>
-
 
 </body>
 </html>
