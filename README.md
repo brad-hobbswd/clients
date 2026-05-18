@@ -1,2 +1,0 @@
-# clients
-Client Demostrations
