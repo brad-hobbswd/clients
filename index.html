@@ -34,7 +34,8 @@ main{border-top:1px solid var(--line)}
 .project:nth-child(even) .project-copy{order:-1}
 .preview{position:relative;background:#eef1f5;border:1px solid var(--line);padding:14px;border-radius:14px;box-shadow:0 16px 40px rgba(16,24,40,.08)}
 .preview::before{content:"";display:block;width:34px;height:7px;border-radius:99px;background:#c6cbd4;margin:0 0 10px}
-.preview img,.preview iframe{display:block;width:100%;aspect-ratio:16/10;object-fit:contain;background:#fff;border:1px solid #dde1e7}.preview iframe{object-fit:cover;transform:scale(1);transform-origin:top left;pointer-events:none}
+.preview img{display:block;width:100%;height:auto;max-height:none;object-fit:initial;background:transparent;border:0}
+.preview iframe{display:block;width:100%;height:520px;background:#fff;border:1px solid #dde1e7;pointer-events:none}
 .project-copy{padding:8px 0}
 .project-type{font-size:.75rem;font-weight:800;letter-spacing:.13em;text-transform:uppercase;color:var(--gold);margin-bottom:10px}
 .project h3{font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.8rem,3vw,2.7rem);line-height:1.12;margin-bottom:14px}
