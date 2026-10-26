@@ -1,127 +1,26 @@
-# Brad Hobbs Web Design
+# Web Design Portfolio | Brad Hobbs Web Design
 
-Creative websites built with heart and imagination.
-
-A central showcase for conferences, ministries, podcasts, businesses, educational experiences, and client projects designed through Brad Hobbs Web Design.
+A client-facing project that appears intended to organize client information or resources. Public documentation should describe only the content actually exposed by the repository and avoid publishing private client details.
 
 ## Live Website
-
 https://brad-hobbswd.github.io/clients/
 
----
+## Project Overview
+Client-oriented pages and contact or resource information that are intentionally present in the public site.
 
-## About
+Homepage title: **Web Design Portfolio | Brad Hobbs Web Design**. Explore website design portfolio projects by Brad Hobbs, including business websites, e-commerce, ministry, education, conferences, podcasts, and creative brands.
 
-Brad Hobbs Web Design creates digital experiences focused on creativity, storytelling, and purpose.
+## Pages
+- Homepage and supporting project files.
 
-Every project receives thoughtful design, personality, and attention to detail while creating experiences visitors enjoy exploring.
+## Technology
+Static website hosted through GitHub Pages. Page structure, styling, scripts, and assets are maintained in this repository.
 
-This portfolio serves as a creative home for active work, featured client projects, and ministry centered experiences.
+## Copyright and Permissions
+Copyright © 2026 Bradley Hobbs. All rights reserved.
 
----
+Original writing, site content, graphics, design, and code are protected by copyright. Please obtain written permission before reproducing, redistributing, modifying, or commercially using original materials, except where applicable law permits otherwise. Third-party materials and personal information are subject to their respective rights and privacy requirements.
 
-## Project Categories
-
-### 🎤 Conferences
-
-💜 Beautifully Broken Conference  
-https://brad-hobbswd.github.io/beautifully-broken-conference/
-
----
-
-### 🏛 Ministry & Media
-
-📖 Anthony Blog Devotion  
-https://brad-hobbswd.github.io/anthony-blog-devotion/
-
-📚 Bethesda Apostolic Pentecostal Bible Institute  
-https://www.bapbi.net
-
-🎙 One God Podcast  
-https://brad-hobbswd.github.io/one-god-podcast/
-
-🎵 SGH Music Group  
-https://brad-hobbswd.github.io/sghMusicgroup/
-
----
-
-### 💼 Business & Client Projects
-
-🔧 Broughtons Glass Service  
-https://brad-hobbswd.github.io/broughtonsglassserv/
-
-🥒 GG's Pickles  
-https://brad-hobbswd.github.io/gg-s-pickles/
-
-📷 Growing Love Photography  
-https://brad-hobbswd.github.io/growing-love-photography/
-
----
-
-## Features
-
-✨ Animated visual atmosphere
-
-✨ Creative hero banner
-
-✨ Responsive layout
-
-✨ Categorized project organization
-
-✨ Glass style interface
-
-✨ Client showcase experience
-
-✨ GitHub Pages integration
-
-✨ Mobile, tablet, and desktop support
-
----
-
-## Technologies
-
-HTML5
-
-CSS3
-
-GitHub Pages
-
-Responsive Web Design
-
----
-
-## Site Structure
-
-```text
-clients/
-│
-├── index.html
-├── 404.html
-├── footer.html
-├── README.md
-│
-├── images/
-│   └── banner.png
-```
-
----
-
-## Navigation
-
-Home
-
-https://brad-hobbswd.github.io/clients/
-
-Privacy
-
-https://brad-hobbswd.github.io/brad-hobbswd/privacy.html
-
-Terms
-
-https://brad-hobbswd.github.io/brad-hobbswd/terms.html
-
----
-
-Built with creativity, inspiration, purpose, and a love for design.
-
-Brad Hobbs Web Design
+## Search Engine Files
+- [Sitemap](sitemap.xml)
+- [robots.txt](robots.txt)
