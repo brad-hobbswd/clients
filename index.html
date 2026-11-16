@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,6 +18,7 @@
 <meta name="twitter:title" content="Web Design Portfolio | Brad Hobbs Web Design">
 <meta name="twitter:description" content="Explore website design projects by Brad Hobbs for businesses, ministries, educators, conferences, and creative brands.">
 <meta name="twitter:image" content="https://brad-hobbswd.github.io/clients/D64759BF-7234-4267-8DA9-A8B508C03B92.png">
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -40,6 +42,7 @@
   ]
 }
 </script>
+
 <style>
 :root{--ink:#f5f7fb;--muted:#aeb8c8;--line:rgba(90,166,255,.22);--paper:#060b15;--soft:#0b1323;--accent:#5aa6ff;--electric-blue:#59c8ff;--gold:#f3b63c;--gold-light:#ffd978;--orange:#f28a2e;--ember:#c84d20;--navy:#07101f;--blue-soft:#0c1d36;--cream:#f7f7f2;--white:#ffffff}
 *{box-sizing:border-box;margin:0}
@@ -65,18 +68,35 @@ main{}
 .section-head h2{font-family:Cinzel,Georgia,"Times New Roman",serif;color:var(--white);font-size:clamp(2rem,4vw,3.5rem);line-height:1.05}
 .section-head p{color:var(--muted);max-width:640px}
 .work-list{border-top:2px solid var(--gold);box-shadow:inset 0 1px 0 rgba(16,27,43,.08)}
-.project{display:grid;position:relative;grid-template-columns:1.05fr .95fr;gap:56px;padding:44px 0;border-bottom:1px solid var(--line);align-items:center}.project.project-no-image{grid-template-columns:minmax(0,720px);justify-content:center;text-align:center}.project.project-no-image .project-copy{justify-self:center}.project.project-no-image .project-copy p{margin-left:auto;margin-right:auto}
-.project:nth-child(even){background:linear-gradient(90deg,rgba(89,166,255,.045),rgba(242,138,46,.045))}.project:nth-child(even) .project-copy{order:-1}
+.project{display:grid;position:relative;grid-template-columns:1.05fr .95fr;gap:56px;padding:44px 0;border-bottom:1px solid var(--line);align-items:center}
+.project.project-no-image{grid-template-columns:minmax(0,720px);justify-content:center;text-align:center}
+.project.project-no-image .project-copy{justify-self:center}
+.project.project-no-image .project-copy p{margin-left:auto;margin-right:auto}
+.project:nth-child(even){background:linear-gradient(90deg,rgba(89,166,255,.045),rgba(242,138,46,.045))}
+.project:nth-child(even) .project-copy{order:-1}
 .preview{position:relative;background:linear-gradient(135deg,#0b1628,#0a101b);border:1px solid rgba(243,182,60,.52);padding:14px;border-radius:10px;box-shadow:0 16px 40px rgba(0,0,0,.36),0 0 22px rgba(89,200,255,.05)}
 .preview::before{content:"";display:block;width:42px;height:3px;border-radius:99px;background:var(--gold);margin:0 0 10px}
-.preview img{display:block;width:100%;height:auto;max-height:none;object-fit:initial;background:transparent;border:0}.preview.preview-logo{display:flex;align-items:center;justify-content:center;justify-self:center;max-width:calc(100% - 18px);background:linear-gradient(135deg,rgba(10,20,37,.94),rgba(7,16,31,.98));padding:8px;border:1px solid rgba(243,182,60,.42);border-radius:12px;box-shadow:0 14px 34px rgba(0,0,0,.28),0 0 18px rgba(89,200,255,.04)}.preview.preview-logo::before{display:none}.preview.preview-logo img{display:block;width:auto;height:auto;max-width:100%;object-fit:contain}.preview.preview-mercy{width:250px}.preview.preview-sgh{width:270px}.preview.preview-mercy img{width:100%;max-height:none}.preview.preview-sgh img{width:100%;max-height:none}@media (max-width:700px){.preview.preview-mercy,.preview.preview-sgh{width:auto;max-width:calc(100% - 18px)}}.preview.preview-anthony{display:flex;justify-content:center;align-items:center}.preview.preview-anthony img{width:70%;max-width:420px}
+.preview img{display:block;width:100%;height:auto;max-height:none;object-fit:initial;background:transparent;border:0}
+.preview.preview-logo{display:flex;align-items:center;justify-content:center;justify-self:center;max-width:calc(100% - 18px);background:linear-gradient(135deg,rgba(10,20,37,.94),rgba(7,16,31,.98));padding:8px;border:1px solid rgba(243,182,60,.42);border-radius:12px;box-shadow:0 14px 34px rgba(0,0,0,.28),0 0 18px rgba(89,200,255,.04)}
+.preview.preview-logo::before{display:none}
+.preview.preview-logo img{display:block;width:auto;height:auto;max-width:100%;object-fit:contain}
+.preview.preview-mercy{width:250px}
+.preview.preview-sgh{width:270px}
+.preview.preview-mercy img{width:100%;max-height:none}
+.preview.preview-sgh img{width:100%;max-height:none}
+@media (max-width:700px){.preview.preview-mercy,.preview.preview-sgh{width:auto;max-width:calc(100% - 18px)}}
+.preview.preview-anthony{display:flex;justify-content:center;align-items:center}
+.preview.preview-anthony img{width:70%;max-width:420px}
 .preview iframe{display:block;width:100%;height:520px;background:#fff;border:1px solid #dde1e7;pointer-events:none}
 .project-copy{padding:8px 0}
 .project-type{font-size:.75rem;font-weight:800;letter-spacing:.13em;text-transform:uppercase;color:var(--electric-blue);margin-bottom:10px}
 .project h3{font-family:Cormorant Garamond,Georgia,"Times New Roman",serif;color:var(--white);font-weight:700;font-size:clamp(1.8rem,3vw,2.7rem);line-height:1.12;margin-bottom:14px}
 .project p{color:var(--muted);max-width:540px;margin-bottom:22px}
 .visit{font-weight:800;text-decoration:none;border-bottom:2px solid var(--gold);padding-bottom:3px;color:var(--gold-light)}
-.note{background:radial-gradient(circle at 15% 50%,rgba(242,138,46,.22),transparent 30%),radial-gradient(circle at 85% 20%,rgba(89,200,255,.16),transparent 28%),linear-gradient(135deg,#050b16,#0a1730);border-top:3px solid var(--gold);border-bottom:3px solid var(--electric-blue);color:var(--white)}.note .eyebrow{color:#e1c98f}.note .cta p{color:rgba(255,255,255,.78)}.note .cta h2{color:var(--white)}
+.note{background:radial-gradient(circle at 15% 50%,rgba(242,138,46,.22),transparent 30%),radial-gradient(circle at 85% 20%,rgba(89,200,255,.16),transparent 28%),linear-gradient(135deg,#050b16,#0a1730);border-top:3px solid var(--gold);border-bottom:3px solid var(--electric-blue);color:var(--white)}
+.note .eyebrow{color:#e1c98f}
+.note .cta p{color:rgba(255,255,255,.78)}
+.note .cta h2{color:var(--white)}
 .cta{max-width:1400px;margin:0 auto;padding:78px 24px;text-align:center}
 .cta h2{font-family:Cinzel,Georgia,"Times New Roman",serif;font-size:clamp(2.3rem,5vw,4.5rem);line-height:1.05;max-width:900px;margin:0 auto 18px}
 .cta p{color:var(--muted);max-width:650px;margin:0 auto 26px}
@@ -84,42 +104,156 @@ footer{max-width:1400px;margin:0 auto;padding:28px 24px;background:#03070e;color
 @media(max-width:800px){.hero{padding:16px 18px 54px}.brand{align-items:flex-start;gap:10px}.brand span{display:none}.section{padding:58px 18px}.section-head{grid-template-columns:1fr;gap:16px}.project{grid-template-columns:1fr;gap:26px;padding:34px 0}.project:nth-child(even) .project-copy{order:0}.cta{padding:62px 18px}footer{padding:24px 18px;flex-direction:column}.banner{border-radius:12px}}
 </style>
 </head>
+
 <body>
 <header class="hero">
 <div class="brand">
 <a href="https://brad-hobbswd.github.io/brad-hobbswd/">Brad Hobbs Web Design</a>
 <span>Selected Work</span>
 </div>
+
 <img class="banner" src="D64759BF-7234-4267-8DA9-A8B508C03B92.png" alt="Brad Hobbs Web Design">
+
 <div class="intro">
 <div class="eyebrow">Portfolio</div>
 <h1>Websites built around the people and purpose behind them.</h1>
 <p class="lead">A selection of digital experiences created for conferences, ministries, media, businesses, and creative brands. Each project begins with a different story and is designed to give that story a clear, professional place online.</p>
-<div class="actions"><a class="button primary" href="#work">Explore Selected Work</a><a class="button" href="https://brad-hobbswd.github.io/brad-hobbswd/contact.html">Start a Project</a></div>
+<div class="actions">
+<a class="button primary" href="#work">Explore Selected Work</a>
+<a class="button" href="https://brad-hobbswd.github.io/brad-hobbswd/contact.html">Start a Project</a>
+</div>
 </div>
 </header>
 
 <main id="work">
 <section class="section">
 <div class="section-head">
-<div><div class="eyebrow">Selected Projects</div><h2>Work that speaks for itself.</h2></div>
+<div>
+<div class="eyebrow">Selected Projects</div>
+<h2>Work that speaks for itself.</h2>
+</div>
 <p>The current portfolio artwork has been retained and used as the visual identity of this presentation. Each project is organized in a consistent professional case-study layout so the portfolio feels cohesive while the work itself remains the focus.</p>
 </div>
+
 <div class="work-list">
-<article class="project"><div class="preview"><img src="https://raw.githubusercontent.com/brad-hobbswd/SassyBelleCandlesCo/main/assets/6EBD7E61-D381-4170-96AF-A1E60A6B6A3A.jpeg" alt="Sassy Belle Candle Co., LLC website introduction"></div><div class="project-copy"><div class="project-type">E Commerce & Brand</div><h3>Sassy Belle Candle Co., LLC</h3><p>An artisan candle and home fragrance website created around the brand’s Bluegrass identity, product presentation, and online shopping experience.</p><a class="visit" href="https://brad-hobbswd.github.io/SassyBelleCandlesCo/" target="_blank" rel="noopener noreferrer">View Website ↗</a></div></article>
-<article class="project"><div class="preview"><img src="https://raw.githubusercontent.com/brad-hobbswd/beautifully-broken-conference/main/att.hKHh2cg0i1UEwI5DQsEBDbWL_cOR9M7jN2XsJ0_Yb7k.jpeg" alt="Beautifully Broken Women's Conference current website introduction"></div><div class="project-copy"><div class="project-type">Conference & Events</div><h3>Beautifully Broken Women's Conference</h3><p>A conference website designed to communicate the event, establish its visual identity, and create a welcoming digital experience for attendees.</p><a class="visit" href="https://brad-hobbswd.github.io/beautifully-broken-conference/">View Website ↗</a></div></article>
-<article class="project project-no-image"><div class="project-copy"><div class="project-type">Devotional & Ministry</div><h3>Anthony Blog Devotion</h3><p>A focused devotional experience designed to make inspirational writing and ministry content easy to explore online.</p><a class="visit" href="https://brad-hobbswd.github.io/anthony-blog-devotion/">View Website ↗</a></div></article>
-<article class="project"><div class="preview"><iframe src="https://www.bapbi.net/" title="Bethesda Apostolic Pentecostal Bible Institute current website preview" loading="lazy"></iframe></div><div class="project-copy"><div class="project-type">Education & Ministry</div><h3>Bethesda Apostolic Pentecostal Bible Institute</h3><p>A professional online presence supporting Apostolic education, biblical learning, and connection within a ministry setting.</p><a class="visit" href="https://www.bapbi.net">View Website ↗</a></div></article>
-<article class="project"><div class="preview preview-logo preview-mercy"><img src="https://raw.githubusercontent.com/brad-hobbswd/mercy-message-podcast/main/C45347D9-25F7-43EF-A2B4-704D2385B318.png" alt="Mercy Message Podcast current website introduction"></div><div class="project-copy"><div class="project-type">Podcast & Digital Ministry</div><h3>Mercy Message Podcast</h3><p>A ministry media platform created to give the podcast a clear digital home for meaningful conversations and its message.</p><a class="visit" href="https://brad-hobbswd.github.io/mercy-message-podcast/">View Website ↗</a></div></article>
-<article class="project"><div class="preview preview-logo preview-sgh"><img src="https://raw.githubusercontent.com/brad-hobbswd/sghMusicgroup/main/D6FE0D35-5FC7-4C31-ABE0-BCEA10E4A5CE.png" alt="SGH Music Group current website introduction"></div><div class="project-copy"><div class="project-type">Music & Creative Media</div><h3>SGH Music Group</h3><p>A creative presentation designed to support music, ministry, and the identity behind the work.</p><a class="visit" href="https://brad-hobbswd.github.io/sghMusicgroup/">View Website ↗</a></div></article>
-<article class="project"><div class="preview"><img src="https://raw.githubusercontent.com/brad-hobbswd/broughtonsglassserv/main/images/0CB34EA2-2C57-44E5-AB94-33C007039683.png" alt="Broughtons Glass Service current website introduction"></div><div class="project-copy"><div class="project-type">Business & Professional Services</div><h3>Broughtons Glass Service</h3><p>A business website structured to present services clearly and create a more professional online point of contact.</p><a class="visit" href="https://brad-hobbswd.github.io/broughtonsglassserv/">View Website ↗</a></div></article>
-<article class="project"><div class="preview"><img src="https://raw.githubusercontent.com/brad-hobbswd/gg-s-pickles/main/872E8BC2-93BB-40C7-A363-721E1640C697.png" alt="GG's Pickles current website introduction"></div><div class="project-copy"><div class="project-type">Brand & Business</div><h3>GG's Pickles</h3><p>A lively business presentation created around branding, personality, and a memorable customer experience.</p><a class="visit" href="https://brad-hobbswd.github.io/gg-s-pickles/">View Website ↗</a></div></article>
-<article class="project"><div class="preview"><img src="https://raw.githubusercontent.com/brad-hobbswd/growing-love-photography/main/IMG_0206.jpeg" alt="Growing Love Photography current website introduction"></div><div class="project-copy"><div class="project-type">Photography & Visual Storytelling</div><h3>Growing Love Photography</h3><p>A visual website experience designed to support photography, storytelling, and the presentation of meaningful moments.</p><a class="visit" href="https://brad-hobbswd.github.io/growing-love-photography/">View Website ↗</a></div></article>
+
+<article class="project">
+<div class="preview">
+<img src="https://raw.githubusercontent.com/brad-hobswd/beautifully-broken-conference/main/att.hKHh2cg0i1UEwI5DQsEBDbWL_cOR9M7jN2XsJ0_Yb7k.jpeg" alt="Beautifully Broken Women's Conference current website introduction">
+</div>
+<div class="project-copy">
+<div class="project-type">Conference & Events</div>
+<h3>Beautifully Broken Women's Conference</h3>
+<p>A conference website designed to communicate the event, establish its visual identity, and create a welcoming digital experience for attendees.</p>
+<a class="visit" href="https://brad-hobbswd.github.io/beautifully-broken-conference/">View Website ↗</a>
+</div>
+</article>
+
+<article class="project project-no-image">
+<div class="project-copy">
+<div class="project-type">Devotional & Ministry</div>
+<h3>Anthony Blog Devotion</h3>
+<p>A focused devotional experience designed to make inspirational writing and ministry content easy to explore online.</p>
+<a class="visit" href="https://brad-hobswd.github.io/anthony-blog-devotion/">View Website ↗</a>
+</div>
+</article>
+
+<article class="project">
+<div class="preview">
+<iframe src="https://www.bapbi.net/" title="Bethesda Apostolic Pentecostal Bible Institute current website preview" loading="lazy"></iframe>
+</div>
+<div class="project-copy">
+<div class="project-type">Education & Ministry</div>
+<h3>Bethesda Apostolic Pentecostal Bible Institute</h3>
+<p>A professional online presence supporting Apostolic education, biblical learning, and connection within a ministry setting.</p>
+<a class="visit" href="https://www.bapbi.net">View Website ↗</a>
+</div>
+</article>
+
+<article class="project">
+<div class="preview preview-logo preview-mercy">
+<img src="https://raw.githubusercontent.com/brad-hobbswd/mercy-message-podcast/main/C45347D9-25F7-43EF-A2B4-704D2385B318.png" alt="Mercy Message Podcast current website introduction">
+</div>
+<div class="project-copy">
+<div class="project-type">Podcast & Digital Ministry</div>
+<h3>Mercy Message Podcast</h3>
+<p>A ministry media platform created to give the podcast a clear digital home for meaningful conversations and its message.</p>
+<a class="visit" href="https://brad-hobswd.github.io/mercy-message-podcast/">View Website ↗</a>
+</div>
+</article>
+
+<article class="project">
+<div class="preview preview-logo preview-sgh">
+<img src="https://raw.githubusercontent.com/brad-hobswd/sghMusicgroup/main/D6FE0D35-5FC7-4C31-ABE0-BCEA10E4A5CE.png" alt="SGH Music Group current website introduction">
+</div>
+<div class="project-copy">
+<div class="project-type">Music & Creative Media</div>
+<h3>SGH Music Group</h3>
+<p>A creative presentation designed to support music, ministry, and the identity behind the work.</p>
+<a class="visit" href="https://brad-hobswd.github.io/sghMusicgroup/">View Website ↗</a>
+</div>
+</article>
+
+<article class="project">
+<div class="preview">
+<img src="https://raw.githubusercontent.com/brad-hobswd/broughtonsglassserv/main/images/0CB34EA2-2C57-44E5-AB94-33C007039683.png" alt="Broughtons Glass Service current website introduction">
+</div>
+<div class="project-copy">
+<div class="project-type">Business & Professional Services</div>
+<h3>Broughtons Glass Service</h3>
+<p>A business website structured to present services clearly and create a more professional online point of contact.</p>
+<a class="visit" href="https://brad-hobswd.github.io/broughtonsglassserv/">View Website ↗</a>
+</div>
+</article>
+
+<article class="project">
+<div class="preview">
+<img src="https://raw.githubusercontent.com/brad-hobswd/gg-s-pickles/main/872E8BC2-93BB-40C7-A363-721E1640C697.png" alt="GG's Pickles current website introduction">
+</div>
+<div class="project-copy">
+<div class="project-type">Brand & Business</div>
+<h3>GG's Pickles</h3>
+<p>A lively business presentation created around branding, personality, and a memorable customer experience.</p>
+<a class="visit" href="https://brad-hobswd.github.io/gg-s-pickles/">View Website ↗</a>
+</div>
+</article>
+
+<article class="project">
+<div class="preview">
+<img src="https://raw.githubusercontent.com/brad-hobswd/growing-love-photography/main/IMG_0206.jpeg" alt="Growing Love Photography current website introduction">
+</div>
+<div class="project-copy">
+<div class="project-type">Photography & Visual Storytelling</div>
+<h3>Growing Love Photography</h3>
+<p>A visual website experience designed to support photography, storytelling, and the presentation of meaningful moments.</p>
+<a class="visit" href="https://brad-hobswd.github.io/growing-love-photography/">View Website ↗</a>
+</div>
+</article>
+
 </div>
 </section>
-<section class="note"><div class="cta"><div class="eyebrow">Brad Hobbs Web Design</div><h2>Your vision deserves a professional place online.</h2><p>Let's create a website that reflects your purpose, serves your audience, and presents your work with clarity.</p><a class="button primary" href="https://brad-hobbswd.github.io/brad-hobbswd/contact.html">Start Your Project</a></div></section>
+
+<section class="note">
+<div class="cta">
+<div class="eyebrow">Brad Hobbs Web Design</div>
+<h2>Your vision deserves a professional place online.</h2>
+<p>Let's create a website that reflects your purpose, serves your audience, and presents your work with clarity.</p>
+<a class="button primary" href="https://brad-hobswd.github.io/brad-hobswd/contact.html">Start Your Project</a>
+</div>
+</section>
 </main>
-<footer><span>© <span id="year"></span> Brad Hobbs Web Design</span><span><a href="https://brad-hobbswd.github.io/brad-hobbswd/privacy.html">Privacy</a> &nbsp;·&nbsp; <a href="https://brad-hobbswd.github.io/brad-hobbswd/terms.html">Terms</a></span></footer>
-<script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+
+<footer>
+<span>© <span id="year"></span> Brad Hobbs Web Design</span>
+<span>
+<a href="https://brad-hobswd.github.io/brad-hobswd/privacy.html">Privacy</a>
+&nbsp;·&nbsp;
+<a href="https://brad-hobswd.github.io/brad-hobswd/terms.html">Terms</a>
+</span>
+</footer>
+
+<script>
+document.getElementById("year").textContent=new Date().getFullYear();
+</script>
 </body>
 </html>
